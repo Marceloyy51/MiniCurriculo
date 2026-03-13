@@ -40,7 +40,10 @@ main {
 
 /* imagem */
 .apresentacao img {
-    border-radius: 50%;
+    width: 150px;       /* largura fixa */
+    height: 200px;      /* altura fixa (proporção 3x4) */
+    object-fit: cover;  /* evita deformação da imagem */
+    border-radius: 8px; /* cantos levemente arredondados */
     margin-bottom: 15px;
 }
 
